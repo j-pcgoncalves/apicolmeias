@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-links {
+        transition: all 0.2s ease-in;
+        text-align: center;
+    }
+
+    .nav-links:hover {
+        color: theme("colors.primary");
+    }
+}
+
+@layer base {
+    body {
+        @apply font-poppins;
+    }
+}
