@@ -6,10 +6,22 @@
     .nav-links {
         transition: all 0.2s ease-in;
         text-align: center;
+        position: relative;
+    }
+
+    .nav-link-icon {
+        position: absolute;
+        top: 30px;
+        opacity: 0;
+        transition: opacity 0.2s ease-in;
     }
 
     .nav-links:hover {
         color: theme("colors.primary");
+    }
+
+    .nav-links:hover > .nav-link-icon {
+        opacity: 1;
     }
 }
 
