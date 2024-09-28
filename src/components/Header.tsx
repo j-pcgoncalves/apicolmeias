@@ -1,13 +1,13 @@
 import { FaBars, FaX } from "react-icons/fa6";
 import { GiBee } from "react-icons/gi";
-import { useState } from "react";
+import { 
+    useDisclosure
+} from "@chakra-ui/react";
+
+import CustomDrawer from "./ui/CustomDrawer";
 
 export default function Header() {
-    const [openModal, setOpenModal] = useState(false);
-
-    const handleOpenModal = () => {
-        setOpenModal(!openModal);
-    }
+    const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
         <div className="bg-white flex justify-between py-5 px-5 items-center">
@@ -20,19 +20,24 @@ export default function Header() {
                 </li>
                 <li className="nav-links">
                     Produtos
-                    <span className="nav-link-icon left-[33px]"><GiBee /></span>
+                    <span className="nav-link-icon left-[30px]"><GiBee /></span>
                 </li>
                 <li className="nav-links">
                     Contactos
-                    <span className="nav-link-icon left-10"><GiBee /></span>
+                    <span className="nav-link-icon left-9"><GiBee /></span>
                 </li>
             </ul>
 
-            <div onClick={handleOpenModal} className="bg-primary flex flex-col p-2 rounded-[5px] lg:hidden cursor-pointer">
-                <span className="text-white text-2xl">
-                    {openModal ? <FaX /> : <FaBars />}
+            <div onClick={onOpen} className="bg-primary flex flex-col p-2 rounded-[5px] lg:hidden cursor-pointer relative h-9 w-9">
+                <span className={`menu-icon ${isOpen ? "show" : "hide"}`}>
+                    <FaX />
+                </span>
+                <span className={`menu-icon ${isOpen ? "hide" : "show"}`}>
+                    <FaBars />
                 </span>
             </div>
+
+            <CustomDrawer isOpen={isOpen} onClose={onClose} />
         </div>
     );
 }

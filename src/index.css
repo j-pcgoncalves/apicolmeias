@@ -23,10 +23,27 @@
     .nav-links:hover > .nav-link-icon {
         opacity: 1;
     }
+
+    .hide {
+        transform: rotate(180deg) scale(0);
+    }
+
+    .show {
+        transform: rotate(180deg) scale(1);
+    }
+
+    .drawer-items {
+        border-bottom: 1px solid #E5E7EB;
+        padding: 16px 40px;
+    }
 }
 
 @layer base {
     body {
         @apply font-poppins;
+    }
+
+    .menu-icon {
+        @apply text-white text-2xl absolute top-[6px] left-[6.5px] transition-all duration-200 ease-in-out;
     }
 }
