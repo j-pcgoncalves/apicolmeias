@@ -36,6 +36,12 @@
         border-bottom: 1px solid #E5E7EB;
         padding: 16px 40px;
     }
+
+    .contactos-footer {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 @layer base {
@@ -45,5 +51,9 @@
 
     .menu-icon {
         @apply text-white text-2xl absolute top-[6px] left-[6.5px] transition-all duration-200 ease-in-out;
+    }
+
+    .containers-footer {
+        @apply w-full lg:w-[40%];
     }
 }
