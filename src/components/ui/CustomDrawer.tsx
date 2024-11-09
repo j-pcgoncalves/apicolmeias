@@ -6,6 +6,7 @@ import {
     IconButton
 } from "@chakra-ui/react";
 import { FaX } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 type CustomDrawerProps = {
     onClose: () => void;
@@ -35,13 +36,13 @@ export default function CustomDrawer({ onClose, isOpen }: CustomDrawerProps) {
                 </DrawerHeader>
 
                 <div className="drawer-items">
-                    <span>Home</span>
+                    <NavLink to="/" onClick={onClose}>Home</NavLink>
                 </div>
                 <div className="drawer-items">
-                    <span>Produtos</span>
+                    <NavLink to="/produtos" onClick={onClose}>Produtos</NavLink>
                 </div>
                 <div className="drawer-items">
-                    <span>Contactos</span>
+                    <NavLink to="/contactos" onClick={onClose}>Contactos</NavLink>
                 </div>
             </DrawerContent>
         </Drawer>
