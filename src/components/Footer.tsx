@@ -1,4 +1,4 @@
-import { FaEnvelope, FaHeadphones, FaLocationPin } from "react-icons/fa6";
+import { FaEnvelope, FaLocationPin, FaPhone } from "react-icons/fa6";
 import { useState } from "react";
 
 export default function Footer() {
@@ -22,7 +22,7 @@ export default function Footer() {
                         Rua da Associação Recreativa e Cultural do Valongo, 6000-256 CASTELO BRANCO
                     </span>
                     <span className="contactos-footer mt-4">
-                        <span><FaHeadphones /></span> 
+                        <span><FaPhone /></span> 
                         <a href="tel:934868731">
                             +351 934 868 731*
                         </a>
