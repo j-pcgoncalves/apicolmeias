@@ -39,7 +39,7 @@ export default function Footer() {
                         
                     </span>
                     <span className="mt-4 text-[10px]">
-                        * Chamada para rede Móvel Nacional
+                        * Chamada para rede móvel nacional
                     </span>
                 </div>
             </div>
