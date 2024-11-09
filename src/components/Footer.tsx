@@ -19,7 +19,7 @@ export default function Footer() {
                     <h3 className="font-extrabold text-xl lg:text-2xl">Contactos</h3>
                     <span className="contactos-footer mt-10">
                         <span><FaLocationPin /></span> 
-                        Rua da Associação Recreativa e Cultural do Valongo, 6000-256 CASTELO BRANCO
+                        Rua da Associação Recreativa e Cultural do Valongo 11, 6000-256 CASTELO BRANCO
                     </span>
                     <span className="contactos-footer mt-4">
                         <span><FaPhone /></span> 
