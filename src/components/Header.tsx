@@ -3,29 +3,58 @@ import { GiBee } from "react-icons/gi";
 import { 
     useDisclosure
 } from "@chakra-ui/react";
+import { NavLink, useLocation } from "react-router-dom";
 
 import CustomDrawer from "./ui/CustomDrawer";
 
 export default function Header() {
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const url = useLocation().pathname;
 
     return (
         <div className="bg-white flex justify-between py-5 px-5 items-center">
             <h1 className="font-dancing font-extrabold text-5xl lg:text-6xl text-primary">Apicolmeias</h1>
 
             <ul className="gap-16 text-lg items-center hidden lg:flex">
-                <li className="nav-links">
+                <NavLink 
+                    to="/" 
+                    style={{ color: url === "/" ? "#B83806" : "" }} 
+                    className="nav-links"
+                >
                     Home 
-                    <span className="nav-link-icon left-5"><GiBee /></span>
-                </li>
-                <li className="nav-links">
+                    <span 
+                        style={{ opacity: url === "/" ? "1" : "0" }} 
+                        className="nav-link-icon left-5"
+                    >
+                        <GiBee />
+                    </span>
+                </NavLink>
+                <NavLink 
+                    to="/produtos" 
+                    style={{ color: url === "/produtos" ? "#B83806" : "" }} 
+                    className="nav-links"
+                >
                     Produtos
-                    <span className="nav-link-icon left-[30px]"><GiBee /></span>
-                </li>
-                <li className="nav-links">
+                    <span 
+                        style={{ opacity: url === "/produtos" ? "1" : "0" }} 
+                        className="nav-link-icon left-[30px]"
+                    >
+                        <GiBee />
+                    </span>
+                </NavLink>
+                <NavLink 
+                    to="/contactos" 
+                    style={{ color: url === "/contactos" ? "#B83806" : "" }} 
+                    className="nav-links"
+                >
                     Contactos
-                    <span className="nav-link-icon left-9"><GiBee /></span>
-                </li>
+                    <span 
+                        style={{ opacity: url === "/contactos" ? "1" : "0" }} 
+                        className="nav-link-icon left-9"
+                    >
+                        <GiBee />
+                    </span>
+                </NavLink>
             </ul>
 
             <div onClick={onOpen} className="bg-primary flex flex-col p-2 rounded-[5px] lg:hidden cursor-pointer relative h-9 w-9">

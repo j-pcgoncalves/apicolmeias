@@ -8,11 +8,18 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 
 import App from './App.tsx'
 import './index.css'
+import Contactos from './components/contactos/Contactos.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    children: [
+      {
+        path: "/contactos",
+        element: <Contactos />
+      }
+    ],
   }
 ])
 
