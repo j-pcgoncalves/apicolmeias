@@ -35,13 +35,13 @@ export default function CustomDrawer({ onClose, isOpen }: CustomDrawerProps) {
                 </DrawerHeader>
 
                 <div className="drawer-items">
-                    <p>Home</p>
+                    <span>Home</span>
                 </div>
                 <div className="drawer-items">
-                    <p>Produtos</p>
+                    <span>Produtos</span>
                 </div>
                 <div className="drawer-items">
-                    <p>Contactos</p>
+                    <span>Contactos</span>
                 </div>
             </DrawerContent>
         </Drawer>
