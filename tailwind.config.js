@@ -17,6 +17,7 @@ export default {
         primary: "#B83806",
         "footer-primary": "#242424",
         "footer-secondary": "#1E1C1C",
+        secondary: "#B838061C",
       }
     },
   },

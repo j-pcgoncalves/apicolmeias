@@ -13,7 +13,7 @@ export default function Header() {
 
     return (
         <div className="bg-white flex justify-between py-5 px-5 items-center">
-            <h1 className="font-dancing font-extrabold text-5xl lg:text-6xl text-primary">Apicolmeias</h1>
+            <NavLink to="/" className="font-dancing font-extrabold text-5xl lg:text-6xl text-primary">Apicolmeias</NavLink>
 
             <ul className="gap-16 text-lg items-center hidden lg:flex">
                 <NavLink 
