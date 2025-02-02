@@ -97,6 +97,41 @@
     .card-text {
         text-align: center;
     }
+
+    .hero-section {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-bottom: 120px;
+    }
+
+    .hero-section::after {
+        content: "";
+        position: absolute;
+        background: #00000091;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .hero-btn {
+        background: theme("colors.primary");
+        z-index: 10;
+        position: relative;
+        color: white;
+        padding: 20px 20px;
+        font-size: 20px;
+        border-radius: 5px;
+        transition: all 0.2s ease-in;
+    }
+
+    .hero-btn:hover {
+        background: #852703;
+    }
 }
 
 @layer base {
@@ -134,5 +169,13 @@
 
     .map-container {
         @apply px-[20px] sm:px-[120px] mb-[120px];
+    }
+
+    .hero-main-text-1 {
+        @apply text-6xl md:text-8xl text-white font-bold z-10 relative tracking-wider mb-5;
+    }
+
+    .hero-main-text-2 {
+        @apply text-6xl md:text-8xl text-footer-secondary font-bold z-10 relative tracking-wider mb-20;
     }
 }
