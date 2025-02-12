@@ -1,6 +1,7 @@
 import { FaBoxArchive, FaForumbee, FaHive } from "react-icons/fa6";
 import HeroSection from "../ui/HeroSection";
 import HomeCard from "../ui/HomeCard";
+import HomeAbout from "./HomeAbout";
 
 const Home = () => {
     return (
@@ -12,6 +13,8 @@ const Home = () => {
                 <HomeCard icon={<FaHive style={{ fontSize: "60px" }} />} title="Extração" text="Para proceder à extração do seu mel oferecemos toda uma panóplia de utensílios" />
                 <HomeCard icon={<FaForumbee style={{ fontSize: "60px" }} />} title="Cosmética" text="Experimente os nossos produtos cosméticos para proteger o seu corpo" />
             </div>
+
+            <HomeAbout />
         </>
     );
 }
