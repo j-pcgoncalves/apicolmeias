@@ -138,6 +138,26 @@ export const productsData: ProductsModel[] = [
                 name: "Núcleo Langstroth emalhetado"
             },
             {
+                imageUrl: "",
+                name: "Quadro ninho ou alça Langstroth"
+            },
+            {
+                imageUrl: "",
+                name: "Quadro 1/2 alça Langstroth"
+            },
+            {
+                imageUrl: "",
+                name: "Estrado colmeia Langstroth"
+            },
+            {
+                imageUrl: "",
+                name: "Prancheta agasalho colmeia Langstroth"
+            },
+            {
+                imageUrl: "",
+                name: "	Telhado colmeia Langstroth"
+            },
+            {
                 imageUrl: corticos,
                 name: "Cortiços"
             },
