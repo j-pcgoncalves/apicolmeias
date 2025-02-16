@@ -1,8 +1,9 @@
 import { useState } from "react";
+import { Grid, GridItem } from "@chakra-ui/react";
 
 import BreadcrumbNav from "../ui/BreadcrumbNav";
 import { productsData } from "./produtosData";
-import { Grid, GridItem } from "@chakra-ui/react";
+import indisponivel from "../../assets/indisponivel.png";
 
 const Produtos = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,7 +35,11 @@ const Produtos = () => {
             >
                 {productsData[currentIndex].products.map((product, index) => (
                     <GridItem key={`product-${index}`}>
-                        <img className="w-full h-[400px] object-cover rounded-t-[5px]" src={product.imageUrl} alt={product.name} />
+                        <img 
+                            className={`w-full ${!product.imageUrl ? "h-[500px]" : ""} rounded-t-[5px]`} 
+                            src={product.imageUrl ? product.imageUrl : indisponivel} 
+                            alt={product.name} 
+                        />
 
                         <div className="product-name-container">
                             <p>{product.name}</p>
