@@ -25,6 +25,19 @@ import colmeiaLangstrothPintada from "../../assets/colmeias/langstroth_P.jpg";
 import colmeiaLangstrothEmalhetada from "../../assets/colmeias/langstroth_E.jpg";
 import nucleoLangstrothPintada from "../../assets/colmeias/nucleo_lang_P.jpg";
 import nucleoLangstrothEmalhetada from "../../assets/colmeias/nucleo_lang_E.jpg";
+import corticos from "../../assets/colmeias/corticos.jpg";
+
+import manualTangencial24Quadros from "../../assets/extracao/extractor_mt_2e4.jpg";
+import manualTangencial36Quadros from "../../assets/extracao/extractor_mt_3e6.jpg";
+import manualRadial912Quadros from "../../assets/extracao/extractor_mr_9.jpg";
+import manualRadial12Quadros from "../../assets/extracao/extractor_mr_12.jpg";
+import eletricoRadial12Quadros from "../../assets/extracao/extractor_er_12.jpg";
+import prensaTripe from "../../assets/extracao/prensa.jpg";
+import tinaDesopercular from "../../assets/extracao/tina_desopercular.jpg";
+import facaDesopercular from "../../assets/extracao/faca_desopercular.jpg";
+import garfoDesopercular from "../../assets/extracao/garfo_desopercular.jpg";
+import roloDesopercular from "../../assets/extracao/rolo_desopercular.jpg";
+import crestadeira from "../../assets/extracao/crestadeira.jpg";
 
 type ProductInfo = {
     imageUrl: string;
@@ -42,87 +55,91 @@ export const productsData: ProductsModel[] = [
         products: [
             {
                 imageUrl: colmeiaReversivelPintada,
-                name: "Colmeia Reversível Pintada"
+                name: "Colmeia Reversível pintada"
             },
             {
                 imageUrl: colmeiaReversivelEmalhetada,
-                name: "Colmeia Reversível Emalhetada"
+                name: "Colmeia Reversível emalhetada"
             },
             {
                 imageUrl: "",
-                name: "Ninho ou Alça"
+                name: "Ninho ou alça"
             },
             {
                 imageUrl: nucleoReversivelPintado,
-                name: "Núcleo Reversível Pintado"
+                name: "Núcleo Reversível pintado"
             },
             {
                 imageUrl: nucleoReversivelEmalhetado,
-                name: "Núcleo Reversível Emalhetado"
+                name: "Núcleo Reversível emalhetado"
             },
             {
                 imageUrl: nucleoPortaEnxames,
-                name: "Núcleo Porta-Enxames"
+                name: "Núcleo porta-enxames"
             },
             {
                 imageUrl: quadroNinhoAlca,
-                name: "Quadro Ninho ou Alça (Reversível)"
+                name: "Quadro ninho ou alça (Reversível)"
             },
             {
                 imageUrl: estrado,
-                name: "Estrado Colmeia Reversível ou Lusitana"
+                name: "Estrado colmeia Reversível ou Lusitana"
             },
             {
                 imageUrl: estradoAntiVarroa,
-                name: "Estrado Colmeia Reversível ou Lusitana Anti-Varroa"
+                name: "Estrado colmeia Reversível ou Lusitana anti-varroa"
             },
             {
                 imageUrl: prancheta,
-                name: "Prancheta Agasalho Colmeia Reversível ou Lusitana"
+                name: "Prancheta agasalho colmeia Reversível ou Lusitana"
             },
             {
                 imageUrl: telhado,
-                name: "Telhado Colmeia Reversível ou Lusitana"
+                name: "Telhado colmeia Reversível ou Lusitana"
             },
             {
                 imageUrl: colmeiaLusitanaPintada,
-                name: "Colmeia Lusitana Pintada"
+                name: "Colmeia Lusitana pintada"
             },
             {
                 imageUrl: colmeiaLusitanaEmalhetada,
-                name: "Colmeia Lusitana Emalhetada"
+                name: "Colmeia Lusitana emalhetada"
             },
             {
                 imageUrl: nucleoLusitanaPintada,
-                name: "Núcleo Lusitana Pintado"
+                name: "Núcleo Lusitana pintado"
             },
             {
                 imageUrl: nucleoLusitanaEmalhetada,
-                name: "Núcleo Lusitana Emalhetado"
+                name: "Núcleo Lusitana emalhetado"
             },
             {
                 imageUrl: quadroNinhoLusitana,
-                name: "Quadro Ninho Lusitana"
+                name: "Quadro ninho Lusitana"
             },
             {
                 imageUrl: quadroALcaLusitana,
-                name: "Quadro Alça Lusitana"
+                name: "Quadro alça Lusitana"
             },
             {
                 imageUrl: colmeiaLangstrothPintada,
-                name: "Colmeia Langstroth Pintada"
+                name: "Colmeia Langstroth pintada"
             },
             {
                 imageUrl: colmeiaLangstrothEmalhetada,
-                name: "Colmeia Langstroth Emalhetada"
+                name: "Colmeia Langstroth emalhetada"
             },
             {
                 imageUrl: nucleoLangstrothPintada,
-                name: "Núcleo Langstroth Pintado"
+                name: "Núcleo Langstroth pintado"
             },
             {
                 imageUrl: nucleoLangstrothEmalhetada,
-                name: "Núcleo Langstroth Emalhetado"
+                name: "Núcleo Langstroth emalhetado"
+            },
+            {
+                imageUrl: corticos,
+                name: "Cortiços"
             },
         ]
     },
@@ -131,33 +148,78 @@ export const productsData: ProductsModel[] = [
         products: [
             {
                 imageUrl: protecaoFatoCompleto,
-                name: "Fato de Apicultor com Máscara Redonda"
+                name: "Fato de apicultor com máscara redonda"
             },
             {
                 imageUrl: protecaoCasaco,
-                name: "Casaco de Apicultor com Máscara"
+                name: "Casaco de apicultor com máscara"
             },
             {
                 imageUrl: protecaoLuvasCouro,
-                name: "Luvas em Couro"
+                name: "Luvas em couro"
             },
             {
                 imageUrl: protecaoLuvasNapa,
-                name: "Luvas em Napa"
+                name: "Luvas em napa"
             },
             {
                 imageUrl: protecaoLuvasNitrilo,
-                name: "Luvas em Nitrilo"
+                name: "Luvas em nitrilo"
             },
             {
                 imageUrl: protecaoFumigador,
-                name: "Fumigador Inox com Proteção"
+                name: "Fumigador inox com proteção"
             },
         ]
     },
     {
         category: "Extração",
-        products: []
+        products: [
+            {
+                imageUrl: manualTangencial24Quadros,
+                name: "Extractor inox manual tangencial 2/4 quadros"
+            },
+            {
+                imageUrl: manualTangencial36Quadros,
+                name: "Extractor inox manual tangencial 3/6 quadros"
+            },
+            {
+                imageUrl: manualRadial912Quadros,
+                name: "Extractor inox manual radial 9 1/2 quadros"
+            },
+            {
+                imageUrl: manualRadial12Quadros,
+                name: "Extractor inox manual radial 12 quadros"
+            },
+            {
+                imageUrl: eletricoRadial12Quadros,
+                name: "Extractor inox elétrico radial 12 quadros"
+            },
+            {
+                imageUrl: prensaTripe,
+                name: "Prensa inox com tripé"
+            },
+            {
+                imageUrl: tinaDesopercular,
+                name: "Tina de desopercular inox 1000x510x395mm"
+            },
+            {
+                imageUrl: facaDesopercular,
+                name: "Faca desopercular inox com serrilha"
+            },
+            {
+                imageUrl: garfoDesopercular,
+                name: "Garfo desopercular"
+            },
+            {
+                imageUrl: roloDesopercular,
+                name: "Rolo desopercular"
+            },
+            {
+                imageUrl: crestadeira,
+                name: "Crestadeira"
+            },
+        ]
     },
     {
         category: "Utensílios",
