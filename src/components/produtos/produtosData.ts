@@ -39,6 +39,26 @@ import garfoDesopercular from "../../assets/extracao/garfo_desopercular.jpg";
 import roloDesopercular from "../../assets/extracao/rolo_desopercular.jpg";
 import crestadeira from "../../assets/extracao/crestadeira.jpg";
 
+import entradas from "../../assets/utensilios/entradas.jpg";
+import reguas from "../../assets/utensilios/reguas.jpg";
+import alimentadores from "../../assets/utensilios/alimentadores.jpg";
+import levantaQuadros from "../../assets/utensilios/levanta_quadros.jpg";
+import levantaQuadrosFormao from "../../assets/utensilios/levanta_quadros_formao.jpg";
+import raspador from "../../assets/utensilios/raspador_levantaquadros.jpg";
+import seccaoFavo from "../../assets/utensilios/favo_mel.jpg";
+import limpaRanhuras from "../../assets/utensilios/limpa_ranhuras.jpg";
+import carretelArame from "../../assets/utensilios/arame.jpg";
+import esticador from "../../assets/utensilios/esticador_arame.jpg";
+import calderinha from "../../assets/utensilios/caldeirinha.jpg";
+import calderinhaEletrica from "../../assets/utensilios/caldeirinha_e.jpg";
+import esporao from "../../assets/utensilios/esporao.jpg";
+import incrustador from "../../assets/utensilios/soldar.jpg";
+import escova from "../../assets/utensilios/escova.jpg";
+import captaPolen from "../../assets/utensilios/capta_polen.jpg";
+import gradeExcluidora from "../../assets/utensilios/excluidora_arame.jpg";
+import grelhaPropolis from "../../assets/utensilios/grelha_propolis.jpg";
+import escapa from "../../assets/utensilios/escapa_abelhas.jpg";
+
 type ProductInfo = {
     imageUrl: string;
     name: string;
@@ -243,7 +263,88 @@ export const productsData: ProductsModel[] = [
     },
     {
         category: "Utensílios",
-        products: []
+        products: [
+            {
+                imageUrl: entradas,
+                name: "Entradas verão / inverno"
+            },
+            {
+                imageUrl: reguas,
+                name: "Réguas de espaçamento de quadros"
+            },
+            {
+                imageUrl: alimentadores,
+                name: "Alimentadores diversos"
+            },
+            {
+                imageUrl: levantaQuadros,
+                name: "Levanta quadros inox"
+            },
+            {
+                imageUrl: levantaQuadrosFormao,
+                name: "Levanta quadros inox com formão"
+            },
+            {
+                imageUrl: raspador,
+                name: "Raspador levanta quadros inox"
+            },
+            {
+                imageUrl: seccaoFavo,
+                name: "Secção favo de mel"
+            },
+            {
+                imageUrl: limpaRanhuras,
+                name: "Limpa ranhuras de quadros inox"
+            },
+            {
+                imageUrl: carretelArame,
+                name: "Carretel de arame"
+            },
+            {
+                imageUrl: esticador,
+                name: "Esticador de arame"
+            },
+            {
+                imageUrl: calderinha,
+                name: "Caldeirinha para derreter cera"
+            },
+            {
+                imageUrl: calderinhaEletrica,
+                name: "Caldeirinha eléctrica"
+            },
+            {
+                imageUrl: esporao,
+                name: "Esporão manual de soldar cera"
+            },
+            {
+                imageUrl: incrustador,
+                name: "Inscrustrador eléctrico de soldar cera"
+            },
+            {
+                imageUrl: escova,
+                name: "Escova abelhas pvc"
+            },
+            {
+                imageUrl: captaPolen,
+                name: "Capta pólen de plástico"
+            },
+            {
+                imageUrl: gradeExcluidora,
+                name: "Grade excluidora de arame"
+            },
+            {
+                imageUrl: grelhaPropolis,
+                name: "Grelha para própolis"
+            },
+            {
+                imageUrl: escapa,
+                name: "Escapa abelhas"
+            },
+            {
+                imageUrl: "",
+                name: "Armadilha para vespas"
+            },
+        ]
     },
     {
         category: "Diversos",
