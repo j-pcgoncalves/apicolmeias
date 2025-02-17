@@ -36,7 +36,7 @@ const Produtos = () => {
                 {productsData[currentIndex].products.map((product, index) => (
                     <GridItem key={`product-${index}`}>
                         <img 
-                            className={`w-full ${!product.imageUrl ? "h-[500px]" : ""} rounded-t-[5px]`} 
+                            className={`w-full h-[500px] object-cover rounded-t-[5px]`} 
                             src={product.imageUrl ? product.imageUrl : indisponivel} 
                             alt={product.name} 
                         />
