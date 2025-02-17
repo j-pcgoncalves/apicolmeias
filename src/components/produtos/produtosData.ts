@@ -59,6 +59,37 @@ import gradeExcluidora from "../../assets/utensilios/excluidora_arame.jpg";
 import grelhaPropolis from "../../assets/utensilios/grelha_propolis.jpg";
 import escapa from "../../assets/utensilios/escapa_abelhas.jpg";
 
+import frasco2kg from "../../assets/diversos/frasco_2kg.jpg";
+import frasco11kg from "../../assets/diversos/frasco_1100grs.jpg";
+import frasco1kg from "../../assets/diversos/frasco_1000grs.jpg";
+import frasco500g from "../../assets/diversos/frasco_500grs.jpg";
+import frasco250g from "../../assets/diversos/frasco_250grs.jpg";
+import frasco212ml from "../../assets/diversos/frasco_212ml.jpg";
+import frasco106ml from "../../assets/diversos/frasco_106ml.jpg";
+import frasco50gr from "../../assets/diversos/frasco_50grs.jpg";
+import frasco38gr from "../../assets/diversos/frasco_38grs.jpg";
+import tampaAbelha from "../../assets/diversos/tampa_abelha.jpg";
+import tampaFavo from "../../assets/diversos/tampa_favo.jpg";
+import cera from "../../assets/diversos/cera.jpg";
+import ganchos from "../../assets/diversos/ganchos.jpg";
+import suporte from "../../assets/diversos/suporte_ferro.jpg";
+import bases from "../../assets/diversos/base_formigas.jpg";
+import numeros from "../../assets/diversos/numeros_apiario.jpg";
+import miniNucleo from "../../assets/diversos/mini_nucleo.jpg";
+import cupula from "../../assets/diversos/cupula_rainhas.jpg";
+import abejarSpray from "../../assets/diversos/abejar_spray.jpg";
+import abejarPomada from "../../assets/diversos/abejar.jpg";
+import encanto from "../../assets/diversos/encanto.jpg";
+import bayvarol from "../../assets/diversos/bayvarol.jpg";
+import timol from "../../assets/diversos/timol.jpg";
+import apiguard from "../../assets/diversos/apiguard.jpg";
+import apistan from "../../assets/diversos/apistan.jpg";
+import cerapol from "../../assets/diversos/cerapol.jpg";
+import neoapiciclina from "../../assets/diversos/neoapiciclina.jpg";
+import apimel from "../../assets/diversos/apimel.jpg";
+import apicomin from "../../assets/diversos/apicomin.jpg";
+import apifuge from "../../assets/diversos/apifuge.jpg";
+
 type ProductInfo = {
     imageUrl: string;
     name: string;
@@ -348,7 +379,128 @@ export const productsData: ProductsModel[] = [
     },
     {
         category: "Diversos",
-        products: []
+        products: [
+            {
+                imageUrl: frasco2kg,
+                name: "Frasco de plástico com tampa 2kg"
+            },
+            {
+                imageUrl: frasco11kg,
+                name: "Frasco de vidro 1,1 kg"
+            },
+            {
+                imageUrl: frasco1kg,
+                name: "Frasco de vidro 1 kg"
+            },
+            {
+                imageUrl: frasco500g,
+                name: "Frasco de vidro 500 gr"
+            },
+            {
+                imageUrl: frasco250g,
+                name: "Frasco de vidro 250 gr"
+            },
+            {
+                imageUrl: frasco212ml,
+                name: "Frasco de vidro 212 ml"
+            },
+            {
+                imageUrl: frasco106ml,
+                name: "Frasco de vidro 106 ml"
+            },
+            {
+                imageUrl: frasco50gr,
+                name: "Frasco de vidro 50 gr"
+            },
+            {
+                imageUrl: frasco38gr,
+                name: "Frasco de vidro 38 gr"
+            },
+            {
+                imageUrl: tampaAbelha,
+                name: "Tampa frasco \"abelha\""
+            },
+            {
+                imageUrl: tampaFavo,
+                name: "Tampa frasco \"favo\""
+            },
+            {
+                imageUrl: cera,
+                name: "Cera moldada"
+            },
+            {
+                imageUrl: ganchos,
+                name: "Ganchos para fixar ninho ao estrado"
+            },
+            {
+                imageUrl: suporte,
+                name: "Suporte em ferro para colmeias"
+            },
+            {
+                imageUrl: bases,
+                name: "Bases anti-formiga"
+            },
+            {
+                imageUrl: numeros,
+                name: "Números para apiário"
+            },
+            {
+                imageUrl: miniNucleo,
+                name: "Mini núcleo para fecundação de rainhas"
+            },
+            {
+                imageUrl: cupula,
+                name: "Cúpula para rainhas"
+            },
+            {
+                imageUrl: abejarSpray,
+                name: "Abejar capta-enxames em spray"
+            },
+            {
+                imageUrl: abejarPomada,
+                name: "Abejar capta-enxames em pomada"
+            },
+            {
+                imageUrl: encanto,
+                name: "\"Encanto as abelhas\" capta-enxames"
+            },
+            {
+                imageUrl: bayvarol,
+                name: "Bayvarol (tratamento varroa)"
+            },
+            {
+                imageUrl: timol,
+                name: "Timol (tratamento varroa)"
+            },
+            {
+                imageUrl: apiguard,
+                name: "Apiguard (tratamento varroa)"
+            },
+            {
+                imageUrl: apistan,
+                name: "Apistan (tratamento varroa)"
+            },
+            {
+                imageUrl: cerapol,
+                name: "Cerapol (tratamento traça)"
+            },
+            {
+                imageUrl: neoapiciclina,
+                name: "Neoapiciclina"
+            },
+            {
+                imageUrl: apimel,
+                name: "Apimel (alimento para abelhas)"
+            },
+            {
+                imageUrl: apicomin,
+                name: "Apicomin (alimento para abelhas)"
+            },
+            {
+                imageUrl: apifuge,
+                name: "Apifuge (repelente abelhas)"
+            },
+        ]
     },
     {
         category: "Cosmética",
