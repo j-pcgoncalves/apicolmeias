@@ -8,6 +8,8 @@ export default function Footer() {
         setEmail("apicolmeias@gmail.com");
     }
 
+    const year = new Date().getFullYear();
+
     return (
         <>
             <div className="bg-footer-primary py-20 px-6 md:px-16 flex flex-col gap-8 lg:flex-row justify-between items-center text-white">
@@ -44,7 +46,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="bg-footer-secondary py-5 text-white text-center text-[14px] px-6 md:px-16">
-                <span>© Copyright 2024 | Apicolmeias - Comércio de Colmeias e Material Apícola | Todos os direitos reservados.</span>
+                <span>© Copyright {year} | Apicolmeias - Comércio de Colmeias e Material Apícola | Todos os direitos reservados. <br /> Desenvolvido por João Gonçalves</span>
             </div>
         </>
     );
