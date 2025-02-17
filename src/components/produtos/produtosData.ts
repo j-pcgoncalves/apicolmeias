@@ -90,6 +90,17 @@ import apimel from "../../assets/diversos/apimel.jpg";
 import apicomin from "../../assets/diversos/apicomin.jpg";
 import apifuge from "../../assets/diversos/apifuge.jpg";
 
+import saboneteMel from "../../assets/cosmetica/sabonete_mel.jpg";
+import saboneteGeleia from "../../assets/cosmetica/sabonete_geleia.jpg";
+import sabonetePropolis from "../../assets/cosmetica/sabonete_propolis.jpg";
+import gelBanho from "../../assets/cosmetica/gel_mel.jpg";
+import champoAntiCaspa from "../../assets/cosmetica/champo_anticaspa.jpg";
+import champoAntiQueda from "../../assets/cosmetica/champo_antiqueda.jpg";
+import champoMel from "../../assets/cosmetica/champo_mel.jpg";
+import cremeMaos from "../../assets/cosmetica/creme.jpg";
+import batom from "../../assets/cosmetica/batom.jpg";
+import esfoliante from "../../assets/cosmetica/esfoliante.jpg";
+
 type ProductInfo = {
     imageUrl: string;
     name: string;
@@ -504,6 +515,47 @@ export const productsData: ProductsModel[] = [
     },
     {
         category: "Cosmética",
-        products: []
+        products: [
+            {
+                imageUrl: saboneteMel,
+                name: "Sabonete de mel"
+            },
+            {
+                imageUrl: saboneteGeleia,
+                name: "Sabonete de geleia real"
+            },
+            {
+                imageUrl: sabonetePropolis,
+                name: "Sabonete de própolis"
+            },
+            {
+                imageUrl: gelBanho,
+                name: "Gel de banho de mel e geleia real"
+            },
+            {
+                imageUrl: champoAntiCaspa,
+                name: "Champô suave anticaspa e antiqueda"
+            },
+            {
+                imageUrl: champoAntiQueda,
+                name: "Champô suave antiqueda e fortalecimento"
+            },
+            {
+                imageUrl: champoMel,
+                name: "Champô de mel e ervas"
+            },
+            {
+                imageUrl: cremeMaos,
+                name: "Creme para as mãos"
+            },
+            {
+                imageUrl: batom,
+                name: "Batom protector"
+            },
+            {
+                imageUrl: esfoliante,
+                name: "Gel esfoliante"
+            },
+        ]
     },
 ];
