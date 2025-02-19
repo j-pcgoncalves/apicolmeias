@@ -1,9 +1,9 @@
 import protecaoFatoCompleto from "../../assets/protecao/fato_completo.jpg";
 import protecaoCasaco from "../../assets/protecao/casaco.jpg";
-import protecaoLuvasCouro from "../../assets/protecao/luvas_couro.jpg";
-import protecaoLuvasNapa from "../../assets/protecao/luvas_napa.jpg";
-import protecaoLuvasNitrilo from "../../assets/protecao/luvas_nitrilo.jpg";
-import protecaoFumigador from "../../assets/protecao/fumigador_protecao.jpg";
+import protecaoLuvasCouro from "../../assets/protecao/luvas_pele.jpeg";
+import protecaoLuvasNapa from "../../assets/protecao/luvas_napa.jpeg";
+import protecaoLuvasNitrilo from "../../assets/protecao/luvas_nitrilo.jpeg";
+import protecaoFumigador from "../../assets/protecao/fumigador.jpeg";
 
 import colmeiaReversivelPintada from "../../assets/colmeias/reversivel_P.jpg";
 import colmeiaReversivelEmalhetada from "../../assets/colmeias/reversivel_E.jpg";
@@ -11,23 +11,22 @@ import nucleoReversivelPintado from "../../assets/colmeias/nucleo_revers_P.jpg";
 import nucleoReversivelEmalhetado from "../../assets/colmeias/nucleo_revers_E.jpg";
 import nucleoPortaEnxames from "../../assets/colmeias/nucleo_porta_enxames.jpg";
 import quadroNinhoAlca from "../../assets/colmeias/q_reversivel.jpg";
-import estrado from "../../assets/colmeias/estrado.jpg";
+import estrado from "../../assets/colmeias/estrado_reversivel.jpeg";
 import estradoAntiVarroa from "../../assets/colmeias/estrados_anti_varroa.jpg";
-import prancheta from "../../assets/colmeias/prancheta.jpg";
+import prancheta from "../../assets/colmeias/agasalho.jpeg";
 import telhado from "../../assets/colmeias/telhado.jpg";
 import colmeiaLusitanaPintada from "../../assets/colmeias/lusitana_P.jpg";
 import colmeiaLusitanaEmalhetada from "../../assets/colmeias/lusitana_E.jpg";
 import nucleoLusitanaPintada from "../../assets/colmeias/nucleo_lus_P.jpg";
 import nucleoLusitanaEmalhetada from "../../assets/colmeias/nucleo_lus_E.jpg";
 import quadroNinhoLusitana from "../../assets/colmeias/q_lusitana.jpg";
-import quadroALcaLusitana from "../../assets/colmeias/m_quadro.jpg";
+import quadroALcaLusitana from "../../assets/colmeias/quadro_alca_lusi.jpeg";
 import colmeiaLangstrothPintada from "../../assets/colmeias/langstroth_P.jpg";
 import colmeiaLangstrothEmalhetada from "../../assets/colmeias/langstroth_E.jpg";
 import nucleoLangstrothPintada from "../../assets/colmeias/nucleo_lang_P.jpg";
 import nucleoLangstrothEmalhetada from "../../assets/colmeias/nucleo_lang_E.jpg";
 import corticos from "../../assets/colmeias/corticos.jpg";
 
-import manualTangencial24Quadros from "../../assets/extracao/extractor_mt_2e4.jpg";
 import manualTangencial36Quadros from "../../assets/extracao/extractor_mt_3e6.jpg";
 import manualRadial912Quadros from "../../assets/extracao/extractor_mr_9.jpg";
 import manualRadial12Quadros from "../../assets/extracao/extractor_mr_12.jpg";
@@ -36,7 +35,7 @@ import prensaTripe from "../../assets/extracao/prensa.jpg";
 import tinaDesopercular from "../../assets/extracao/tina_desopercular.jpg";
 import facaDesopercular from "../../assets/extracao/faca_desopercular.jpg";
 import garfoDesopercular from "../../assets/extracao/garfo_desopercular.jpg";
-import roloDesopercular from "../../assets/extracao/rolo_desopercular.jpg";
+import roloDesopercular from "../../assets/extracao/rolo_desopercular.jpeg";
 import crestadeira from "../../assets/extracao/crestadeira.jpg";
 
 import entradas from "../../assets/utensilios/entradas.jpg";
@@ -59,17 +58,15 @@ import gradeExcluidora from "../../assets/utensilios/excluidora_arame.jpg";
 import grelhaPropolis from "../../assets/utensilios/grelha_propolis.jpg";
 import escapa from "../../assets/utensilios/escapa_abelhas.jpg";
 
-import frasco2kg from "../../assets/diversos/frasco_2kg.jpg";
+import frasco2kg from "../../assets/diversos/frascos_plastico.jpeg";
 import frasco11kg from "../../assets/diversos/frasco_1100grs.jpg";
 import frasco1kg from "../../assets/diversos/frasco_1000grs.jpg";
 import frasco500g from "../../assets/diversos/frasco_500grs.jpg";
 import frasco250g from "../../assets/diversos/frasco_250grs.jpg";
 import frasco212ml from "../../assets/diversos/frasco_212ml.jpg";
 import frasco106ml from "../../assets/diversos/frasco_106ml.jpg";
-import frasco50gr from "../../assets/diversos/frasco_50grs.jpg";
 import frasco38gr from "../../assets/diversos/frasco_38grs.jpg";
-import tampaAbelha from "../../assets/diversos/tampa_abelha.jpg";
-import tampaFavo from "../../assets/diversos/tampa_favo.jpg";
+import tampaAbelha from "../../assets/diversos/tampas.jpeg";
 import cera from "../../assets/diversos/cera.jpg";
 import ganchos from "../../assets/diversos/ganchos.jpg";
 import suporte from "../../assets/diversos/suporte_ferro.jpg";
@@ -77,18 +74,11 @@ import bases from "../../assets/diversos/base_formigas.jpg";
 import numeros from "../../assets/diversos/numeros_apiario.jpg";
 import miniNucleo from "../../assets/diversos/mini_nucleo.jpg";
 import cupula from "../../assets/diversos/cupula_rainhas.jpg";
-import abejarSpray from "../../assets/diversos/abejar_spray.jpg";
-import abejarPomada from "../../assets/diversos/abejar.jpg";
-import encanto from "../../assets/diversos/encanto.jpg";
-import bayvarol from "../../assets/diversos/bayvarol.jpg";
-import timol from "../../assets/diversos/timol.jpg";
-import apiguard from "../../assets/diversos/apiguard.jpg";
-import apistan from "../../assets/diversos/apistan.jpg";
-import cerapol from "../../assets/diversos/cerapol.jpg";
+import cacaEnxames from "../../assets/diversos/caca_enxames.jpeg";
 import neoapiciclina from "../../assets/diversos/neoapiciclina.jpg";
 import apimel from "../../assets/diversos/apimel.jpg";
-import apicomin from "../../assets/diversos/apicomin.jpg";
-import apifuge from "../../assets/diversos/apifuge.jpg";
+import apicomin from "../../assets/diversos/alimentos_estimulacao.jpeg";
+import alimentosManutencao from "../../assets/diversos/alimentos_manutencao.jpeg";
 
 import saboneteMel from "../../assets/cosmetica/sabonete_mel.jpg";
 import saboneteGeleia from "../../assets/cosmetica/sabonete_geleia.jpg";
@@ -98,8 +88,14 @@ import champoAntiCaspa from "../../assets/cosmetica/champo_anticaspa.jpg";
 import champoAntiQueda from "../../assets/cosmetica/champo_antiqueda.jpg";
 import champoMel from "../../assets/cosmetica/champo_mel.jpg";
 import cremeMaos from "../../assets/cosmetica/creme.jpg";
-import batom from "../../assets/cosmetica/batom.jpg";
+import cremeMaosMel from "../../assets/cosmetica/creme_mel.jpeg";
+import batom from "../../assets/cosmetica/batom.jpeg";
 import esfoliante from "../../assets/cosmetica/esfoliante.jpg";
+
+import baldes from "../../assets/embalamentos/baldes.jpeg";
+import barricas from "../../assets/embalamentos/barricas.jpeg";
+import bilhas from "../../assets/embalamentos/bilhas.jpeg";
+import garrafoes from "../../assets/embalamentos/garrafoes.jpeg";
 
 type ProductInfo = {
     imageUrl: string;
@@ -238,7 +234,7 @@ export const productsData: ProductsModel[] = [
             },
             {
                 imageUrl: protecaoLuvasCouro,
-                name: "Luvas em couro"
+                name: "Luvas em pele"
             },
             {
                 imageUrl: protecaoLuvasNapa,
@@ -257,10 +253,6 @@ export const productsData: ProductsModel[] = [
     {
         category: "Extração",
         products: [
-            {
-                imageUrl: manualTangencial24Quadros,
-                name: "Extractor inox manual tangencial 2/4 quadros"
-            },
             {
                 imageUrl: manualTangencial36Quadros,
                 name: "Extractor inox manual tangencial 3/6 quadros"
@@ -393,7 +385,7 @@ export const productsData: ProductsModel[] = [
         products: [
             {
                 imageUrl: frasco2kg,
-                name: "Frasco de plástico com tampa 2kg"
+                name: "Frascos de plástico"
             },
             {
                 imageUrl: frasco11kg,
@@ -420,20 +412,12 @@ export const productsData: ProductsModel[] = [
                 name: "Frasco de vidro 106 ml"
             },
             {
-                imageUrl: frasco50gr,
-                name: "Frasco de vidro 50 gr"
-            },
-            {
                 imageUrl: frasco38gr,
                 name: "Frasco de vidro 38 gr"
             },
             {
                 imageUrl: tampaAbelha,
-                name: "Tampa frasco \"abelha\""
-            },
-            {
-                imageUrl: tampaFavo,
-                name: "Tampa frasco \"favo\""
+                name: "Tampas frasco diversas"
             },
             {
                 imageUrl: cera,
@@ -464,36 +448,8 @@ export const productsData: ProductsModel[] = [
                 name: "Cúpula para rainhas"
             },
             {
-                imageUrl: abejarSpray,
-                name: "Abejar capta-enxames em spray"
-            },
-            {
-                imageUrl: abejarPomada,
-                name: "Abejar capta-enxames em pomada"
-            },
-            {
-                imageUrl: encanto,
-                name: "\"Encanto as abelhas\" capta-enxames"
-            },
-            {
-                imageUrl: bayvarol,
-                name: "Bayvarol (tratamento varroa)"
-            },
-            {
-                imageUrl: timol,
-                name: "Timol (tratamento varroa)"
-            },
-            {
-                imageUrl: apiguard,
-                name: "Apiguard (tratamento varroa)"
-            },
-            {
-                imageUrl: apistan,
-                name: "Apistan (tratamento varroa)"
-            },
-            {
-                imageUrl: cerapol,
-                name: "Cerapol (tratamento traça)"
+                imageUrl: cacaEnxames,
+                name: "Caça-Enxames Diversos"
             },
             {
                 imageUrl: neoapiciclina,
@@ -505,11 +461,11 @@ export const productsData: ProductsModel[] = [
             },
             {
                 imageUrl: apicomin,
-                name: "Apicomin (alimento para abelhas)"
+                name: "Alimentos de Estimulação"
             },
             {
-                imageUrl: apifuge,
-                name: "Apifuge (repelente abelhas)"
+                imageUrl: alimentosManutencao,
+                name: "Alimentos de Manutenção"
             },
         ]
     },
@@ -549,12 +505,37 @@ export const productsData: ProductsModel[] = [
                 name: "Creme para as mãos"
             },
             {
+                imageUrl: cremeMaosMel,
+                name: "Creme para as mãos com mel"
+            },
+            {
                 imageUrl: batom,
                 name: "Batom protector"
             },
             {
                 imageUrl: esfoliante,
                 name: "Gel esfoliante"
+            },
+        ]
+    },
+    {
+        category: "Embalamentos",
+        products: [
+            {
+                imageUrl: baldes,
+                name: "Baldes Diversos"
+            },
+            {
+                imageUrl: barricas,
+                name: "Barricas Diversas"
+            },
+            {
+                imageUrl: bilhas,
+                name: "Bilhas Diversas"
+            },
+            {
+                imageUrl: garrafoes,
+                name: "Garrafões Diversos"
             },
         ]
     },

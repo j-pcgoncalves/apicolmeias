@@ -14,7 +14,7 @@ const HomeAbout = () => {
                         <div className="h-[6px] w-[30px] bg-primary"></div>
                         <div className="h-[6px] w-[40px] bg-primary"></div>
                     </div>
-                    <p className="mt-14 leading-8 text-lg">Com 16 anos de experiência no ramo, a Apicolmeias dedica-se ao comércio de colmeias e tudo o que pode precisar em termos de material apícola. Situada em Castelo Branco, na zona do Valongo, a loja Apicolmeias garante uma oferta variada e completa na área da apicultura, num único local.</p>
+                    <p className="mt-14 leading-8 text-lg">Com 28 anos de experiência no ramo, a Apicolmeias dedica-se ao comércio de colmeias e tudo o que pode precisar em termos de material apícola. Situada em Castelo Branco, na zona do Valongo, a loja Apicolmeias garante uma oferta variada e completa na área da apicultura, num único local.</p>
                 </div>
             </div>
         </>

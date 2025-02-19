@@ -15,13 +15,13 @@ export default function Footer() {
             <div className="bg-footer-primary py-20 px-6 md:px-16 flex flex-col gap-8 lg:flex-row justify-between items-center text-white">
                 <div className="containers-footer">
                     <h2 className="font-dancing font-extrabold text-5xl lg:text-6xl mb-10">Apicolmeias</h2>
-                    <span>Com 16 anos de experiência no ramo, a Apicolmeias dedica-se ao comércio de colmeias e material apícola. Situada em Castelo Branco, a loja Apicolmeias garante uma oferta variada na área da apicultura.</span>
+                    <span>Com 28 anos de experiência no ramo, a Apicolmeias dedica-se ao comércio de colmeias e material apícola. Situada em Castelo Branco, a loja Apicolmeias garante uma oferta variada na área da apicultura.</span>
                 </div>
                 <div className="containers-footer">
                     <h3 className="font-extrabold text-xl lg:text-2xl">Contactos</h3>
                     <span className="contactos-footer mt-10">
                         <span><FaLocationPin /></span> 
-                        Rua da Associação Recreativa e Cultural do Valongo 11, 6000-256 CASTELO BRANCO
+                        Rua da Associação Recreativa e Cultural do Valongo 11, 6000-356 CASTELO BRANCO
                     </span>
                     <span className="contactos-footer mt-4">
                         <span><FaPhone /></span> 
