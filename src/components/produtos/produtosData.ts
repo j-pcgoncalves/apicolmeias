@@ -27,6 +27,7 @@ import nucleoLangstrothPintada from "../../assets/colmeias/nucleo_lang_P.jpg";
 import nucleoLangstrothEmalhetada from "../../assets/colmeias/nucleo_lang_E.jpg";
 import corticos from "../../assets/colmeias/corticos.jpg";
 
+import manualTangencial369Quadros from "../../assets/extracao/extrator_m_369q.jpeg";
 import manualTangencial36Quadros from "../../assets/extracao/extractor_mt_3e6.jpg";
 import manualRadial912Quadros from "../../assets/extracao/extractor_mr_9.jpg";
 import manualRadial12Quadros from "../../assets/extracao/extractor_mr_12.jpg";
@@ -34,7 +35,7 @@ import eletricoRadial12Quadros from "../../assets/extracao/extractor_er_12.jpg";
 import prensaTripe from "../../assets/extracao/prensa.jpg";
 import tinaDesopercular from "../../assets/extracao/tina_desopercular.jpg";
 import facaDesopercular from "../../assets/extracao/faca_desopercular.jpg";
-import garfoDesopercular from "../../assets/extracao/garfo_desopercular.jpg";
+import garfoDesopercular from "../../assets/extracao/garfo_desopercular.jpeg";
 import roloDesopercular from "../../assets/extracao/rolo_desopercular.jpeg";
 import crestadeira from "../../assets/extracao/crestadeira.jpg";
 
@@ -57,6 +58,8 @@ import captaPolen from "../../assets/utensilios/capta_polen.jpg";
 import gradeExcluidora from "../../assets/utensilios/excluidora_arame.jpg";
 import grelhaPropolis from "../../assets/utensilios/grelha_propolis.jpg";
 import escapa from "../../assets/utensilios/escapa_abelhas.jpg";
+import armadilha from "../../assets/utensilios/armadilha_vespa.jpeg";
+import jaula from "../../assets/utensilios/jaula.jpeg";
 
 import frasco2kg from "../../assets/diversos/frascos_plastico.jpeg";
 import frasco11kg from "../../assets/diversos/frasco_1100grs.jpg";
@@ -254,6 +257,10 @@ export const productsData: ProductsModel[] = [
         category: "Extração",
         products: [
             {
+                imageUrl: manualTangencial369Quadros,
+                name: "Extractor inox manual tangencial 3/6/9 quadros"
+            },
+            {
                 imageUrl: manualTangencial36Quadros,
                 name: "Extractor inox manual tangencial 3/6 quadros"
             },
@@ -377,6 +384,14 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: "",
                 name: "Armadilha para vespas"
+            },
+            {
+                imageUrl: armadilha,
+                name: "Armadilha para vespas asiáticas"
+            },
+            {
+                imageUrl: jaula,
+                name: "Jaula para rainhas/Peça para o alimento"
             },
         ]
     },
