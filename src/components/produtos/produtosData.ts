@@ -11,9 +11,9 @@ import nucleoReversivelPintado from "../../assets/colmeias/nucleo_revers_P.jpg";
 import nucleoReversivelEmalhetado from "../../assets/colmeias/nucleo_revers_E.jpg";
 import nucleoPortaEnxames from "../../assets/colmeias/nucleo_porta_enxames.jpg";
 import quadroNinhoAlca from "../../assets/colmeias/q_reversivel.jpg";
-import estrado from "../../assets/colmeias/estrado_reversivel.jpeg";
+import estrado from "../../assets/colmeias/estrado.jpg";
 import estradoAntiVarroa from "../../assets/colmeias/estrados_anti_varroa.jpg";
-import prancheta from "../../assets/colmeias/agasalho.jpeg";
+import prancheta from "../../assets/colmeias/prancheta.jpg";
 import telhado from "../../assets/colmeias/telhado.jpg";
 import colmeiaLusitanaPintada from "../../assets/colmeias/lusitana_P.jpg";
 import colmeiaLusitanaEmalhetada from "../../assets/colmeias/lusitana_E.jpg";
@@ -26,6 +26,11 @@ import colmeiaLangstrothEmalhetada from "../../assets/colmeias/langstroth_E.jpg"
 import nucleoLangstrothPintada from "../../assets/colmeias/nucleo_lang_P.jpg";
 import nucleoLangstrothEmalhetada from "../../assets/colmeias/nucleo_lang_E.jpg";
 import corticos from "../../assets/colmeias/corticos.jpg";
+import agasalho from "../../assets/colmeias/agasalho.jpeg";
+import pranchetaLang from "../../assets/colmeias/estrado_lang.jpeg";
+import telhadoLang from "../../assets/colmeias/telhado_lang.jpeg";
+import quadro12Alca from "../../assets/colmeias/quadro_12alca.jpeg";
+import quadroAlcaLang from "../../assets/colmeias/quadro_lang.jpeg";
 
 import manualTangencial369Quadros from "../../assets/extracao/extrator_m_369q.jpeg";
 import manualTangencial36Quadros from "../../assets/extracao/extractor_mt_3e6.jpg";
@@ -62,10 +67,10 @@ import armadilha from "../../assets/utensilios/armadilha_vespa.jpeg";
 import jaula from "../../assets/utensilios/jaula.jpeg";
 
 import frasco2kg from "../../assets/diversos/frascos_plastico.jpeg";
-import frasco11kg from "../../assets/diversos/frasco_1100grs.jpg";
-import frasco1kg from "../../assets/diversos/frasco_1000grs.jpg";
-import frasco500g from "../../assets/diversos/frasco_500grs.jpg";
-import frasco250g from "../../assets/diversos/frasco_250grs.jpg";
+import frasco11kg from "../../assets/diversos/frasco_11kg.jpeg";
+import frasco1kg from "../../assets/diversos/frasco_1kg.jpeg";
+import frasco500g from "../../assets/diversos/frascos_500gr.jpeg";
+import frasco250g from "../../assets/diversos/frasco_250gr.jpeg";
 import frasco212ml from "../../assets/diversos/frasco_212ml.jpg";
 import frasco106ml from "../../assets/diversos/frasco_106ml.jpg";
 import frasco38gr from "../../assets/diversos/frasco_38grs.jpg";
@@ -83,17 +88,18 @@ import apimel from "../../assets/diversos/apimel.jpg";
 import apicomin from "../../assets/diversos/alimentos_estimulacao.jpeg";
 import alimentosManutencao from "../../assets/diversos/alimentos_manutencao.jpeg";
 
-import saboneteMel from "../../assets/cosmetica/sabonete_mel.jpg";
-import saboneteGeleia from "../../assets/cosmetica/sabonete_geleia.jpg";
-import sabonetePropolis from "../../assets/cosmetica/sabonete_propolis.jpg";
-import gelBanho from "../../assets/cosmetica/gel_mel.jpg";
-import champoAntiCaspa from "../../assets/cosmetica/champo_anticaspa.jpg";
-import champoAntiQueda from "../../assets/cosmetica/champo_antiqueda.jpg";
+import gelBanho from "../../assets/cosmetica/gel_mel.jpeg";
+import champoAntiCaspa from "../../assets/cosmetica/champo_anticaspa.jpeg";
+import champoAntiQueda from "../../assets/cosmetica/champo_antiqueda.jpeg";
 import champoMel from "../../assets/cosmetica/champo_mel.jpg";
 import cremeMaos from "../../assets/cosmetica/creme.jpg";
 import cremeMaosMel from "../../assets/cosmetica/creme_mel.jpeg";
 import batom from "../../assets/cosmetica/batom.jpeg";
 import esfoliante from "../../assets/cosmetica/esfoliante.jpg";
+import sabonetes1 from "../../assets/cosmetica/sabonetes_1.jpeg";
+import sabonetes2 from "../../assets/cosmetica/sabonetes_2.jpeg";
+import sabonetes3 from "../../assets/cosmetica/sabonetes_3.jpeg";
+import sabonetes4 from "../../assets/cosmetica/sabonetes_4.jpeg";
 
 import baldes from "../../assets/embalamentos/baldes.jpeg";
 import barricas from "../../assets/embalamentos/barricas.jpeg";
@@ -199,23 +205,23 @@ export const productsData: ProductsModel[] = [
                 name: "Núcleo Langstroth emalhetado"
             },
             {
-                imageUrl: "",
+                imageUrl: quadroAlcaLang,
                 name: "Quadro ninho ou alça Langstroth"
             },
             {
-                imageUrl: "",
+                imageUrl: quadro12Alca,
                 name: "Quadro 1/2 alça Langstroth"
             },
             {
-                imageUrl: "",
+                imageUrl: pranchetaLang,
                 name: "Estrado colmeia Langstroth"
             },
             {
-                imageUrl: "",
+                imageUrl: agasalho,
                 name: "Prancheta agasalho colmeia Langstroth"
             },
             {
-                imageUrl: "",
+                imageUrl: telhadoLang,
                 name: "	Telhado colmeia Langstroth"
             },
             {
@@ -488,18 +494,6 @@ export const productsData: ProductsModel[] = [
         category: "Cosmética",
         products: [
             {
-                imageUrl: saboneteMel,
-                name: "Sabonete de mel"
-            },
-            {
-                imageUrl: saboneteGeleia,
-                name: "Sabonete de geleia real"
-            },
-            {
-                imageUrl: sabonetePropolis,
-                name: "Sabonete de própolis"
-            },
-            {
                 imageUrl: gelBanho,
                 name: "Gel de banho de mel e geleia real"
             },
@@ -530,6 +524,22 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: esfoliante,
                 name: "Gel esfoliante"
+            },
+            {
+                imageUrl: sabonetes1,
+                name: "Sabonetes Diversos"
+            },
+            {
+                imageUrl: sabonetes2,
+                name: "Sabonetes Diversos"
+            },
+            {
+                imageUrl: sabonetes3,
+                name: "Sabonetes Diversos"
+            },
+            {
+                imageUrl: sabonetes4,
+                name: "Sabonetes Diversos"
             },
         ]
     },
