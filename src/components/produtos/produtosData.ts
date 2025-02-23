@@ -103,7 +103,7 @@ import baldes from "../../assets/embalamentos/baldes.jpeg";
 import barricas from "../../assets/embalamentos/barricas.jpeg";
 import bilhas from "../../assets/embalamentos/bilhas.jpeg";
 import garrafoes from "../../assets/embalamentos/garrafoes.jpeg";
-import garrafasVidro from "../../assets/embalamentos/garrafas_Vidro.jpeg";
+import garrafasVidro from "../../assets/embalamentos/garrafas_vidro.jpeg";
 
 type ProductInfo = {
     imageUrl: string;
@@ -555,7 +555,7 @@ export const productsData: ProductsModel[] = [
             },
             {
                 imageUrl: garrafasVidro,
-                name: "Garrafas de Vidro"
+                name: "Garrafas de Vidro de 250ml/500ml"
             },
         ]
     },
