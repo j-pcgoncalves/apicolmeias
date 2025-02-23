@@ -71,31 +71,29 @@ import frasco11kg from "../../assets/diversos/frasco_11kg.jpeg";
 import frasco1kg from "../../assets/diversos/frasco_1kg.jpeg";
 import frasco500g from "../../assets/diversos/frascos_500gr.jpeg";
 import frasco250g from "../../assets/diversos/frasco_250gr.jpeg";
-import frasco212ml from "../../assets/diversos/frasco_212ml.jpg";
 import frasco106ml from "../../assets/diversos/frasco_106ml.jpg";
-import frasco38gr from "../../assets/diversos/frasco_38grs.jpg";
+import frasco38e40gr from "../../assets/diversos/frascos38e40.jpeg";
 import tampaAbelha from "../../assets/diversos/tampas.jpeg";
 import cera from "../../assets/diversos/cera.jpg";
-import ganchos from "../../assets/diversos/ganchos.jpg";
+import ganchos from "../../assets/diversos/ganchos.jpeg";
 import suporte from "../../assets/diversos/suporte_ferro.jpg";
-import bases from "../../assets/diversos/base_formigas.jpg";
+import bases from "../../assets/diversos/base_formigas.jpeg";
 import numeros from "../../assets/diversos/numeros_apiario.jpg";
 import miniNucleo from "../../assets/diversos/mini_nucleo.jpg";
-import cupula from "../../assets/diversos/cupula_rainhas.jpg";
+import cupula from "../../assets/diversos/cupula_rainhas.jpeg";
 import cacaEnxames from "../../assets/diversos/caca_enxames.jpeg";
-import neoapiciclina from "../../assets/diversos/neoapiciclina.jpg";
 import apimel from "../../assets/diversos/apimel.jpg";
 import apicomin from "../../assets/diversos/alimentos_estimulacao.jpeg";
 import alimentosManutencao from "../../assets/diversos/alimentos_manutencao.jpeg";
+import placaApiario from "../../assets/diversos/placa_apiario.jpeg";
 
 import gelBanho from "../../assets/cosmetica/gel_mel.jpeg";
 import champoAntiCaspa from "../../assets/cosmetica/champo_anticaspa.jpeg";
 import champoAntiQueda from "../../assets/cosmetica/champo_antiqueda.jpeg";
 import champoMel from "../../assets/cosmetica/champo_mel.jpg";
-import cremeMaos from "../../assets/cosmetica/creme.jpg";
+import cremeMaos from "../../assets/cosmetica/creme.jpeg";
 import cremeMaosMel from "../../assets/cosmetica/creme_mel.jpeg";
 import batom from "../../assets/cosmetica/batom.jpeg";
-import esfoliante from "../../assets/cosmetica/esfoliante.jpg";
 import sabonetes1 from "../../assets/cosmetica/sabonetes_1.jpeg";
 import sabonetes2 from "../../assets/cosmetica/sabonetes_2.jpeg";
 import sabonetes3 from "../../assets/cosmetica/sabonetes_3.jpeg";
@@ -105,6 +103,7 @@ import baldes from "../../assets/embalamentos/baldes.jpeg";
 import barricas from "../../assets/embalamentos/barricas.jpeg";
 import bilhas from "../../assets/embalamentos/bilhas.jpeg";
 import garrafoes from "../../assets/embalamentos/garrafoes.jpeg";
+import garrafasVidro from "../../assets/embalamentos/garrafas_Vidro.jpeg";
 
 type ProductInfo = {
     imageUrl: string;
@@ -425,16 +424,12 @@ export const productsData: ProductsModel[] = [
                 name: "Frasco de vidro 250 gr"
             },
             {
-                imageUrl: frasco212ml,
-                name: "Frasco de vidro 212 ml"
-            },
-            {
                 imageUrl: frasco106ml,
                 name: "Frasco de vidro 106 ml"
             },
             {
-                imageUrl: frasco38gr,
-                name: "Frasco de vidro 38 gr"
+                imageUrl: frasco38e40gr,
+                name: "Frasco de vidro 38 gr e 40gr"
             },
             {
                 imageUrl: tampaAbelha,
@@ -473,10 +468,6 @@ export const productsData: ProductsModel[] = [
                 name: "Caça-Enxames Diversos"
             },
             {
-                imageUrl: neoapiciclina,
-                name: "Neoapiciclina"
-            },
-            {
                 imageUrl: apimel,
                 name: "Apimel (alimento para abelhas)"
             },
@@ -487,6 +478,10 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: alimentosManutencao,
                 name: "Alimentos de Manutenção"
+            },
+            {
+                imageUrl: placaApiario,
+                name: "Placa para Apiário"
             },
         ]
     },
@@ -520,10 +515,6 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: batom,
                 name: "Batom protector"
-            },
-            {
-                imageUrl: esfoliante,
-                name: "Gel esfoliante"
             },
             {
                 imageUrl: sabonetes1,
@@ -561,6 +552,10 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: garrafoes,
                 name: "Garrafões Diversos"
+            },
+            {
+                imageUrl: garrafasVidro,
+                name: "Garrafas de Vidro"
             },
         ]
     },
