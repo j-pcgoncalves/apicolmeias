@@ -47,7 +47,7 @@ import crestadeira from "../../assets/extracao/crestadeira.jpg";
 import entradas from "../../assets/utensilios/entradas.jpg";
 import reguas from "../../assets/utensilios/reguas.jpg";
 import alimentadores from "../../assets/utensilios/alimentadores.jpg";
-import levantaQuadros from "../../assets/utensilios/levanta_quadros.jpg";
+import levantaQuadros from "../../assets/utensilios/levanta_quadros.jpeg";
 import levantaQuadrosFormao from "../../assets/utensilios/levanta_quadros_formao.jpg";
 import raspador from "../../assets/utensilios/raspador_levantaquadros.jpg";
 import seccaoFavo from "../../assets/utensilios/favo_mel.jpg";
@@ -98,6 +98,8 @@ import sabonetes1 from "../../assets/cosmetica/sabonetes_1.jpeg";
 import sabonetes2 from "../../assets/cosmetica/sabonetes_2.jpeg";
 import sabonetes3 from "../../assets/cosmetica/sabonetes_3.jpeg";
 import sabonetes4 from "../../assets/cosmetica/sabonetes_4.jpeg";
+import cremeFacial from "../../assets/cosmetica/creme_facial.jpeg";
+import venenoAbelha from "../../assets/cosmetica/veneno_abelha.jpeg";
 
 import baldes from "../../assets/embalamentos/baldes.jpeg";
 import barricas from "../../assets/embalamentos/barricas.jpeg";
@@ -531,6 +533,14 @@ export const productsData: ProductsModel[] = [
             {
                 imageUrl: sabonetes4,
                 name: "Sabonetes Diversos"
+            },
+            {
+                imageUrl: cremeFacial,
+                name: "Creme Facial"
+            },
+            {
+                imageUrl: venenoAbelha,
+                name: "Bálsamo de veneno de abelha"
             },
         ]
     },
