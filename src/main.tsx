@@ -11,11 +11,13 @@ import './index.css'
 import Contactos from './components/contactos/Contactos.tsx';
 import Home from './components/home/Home.tsx';
 import Produtos from './components/produtos/Produtos.tsx';
+import NotFound from './components/notFound/NotFound.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
