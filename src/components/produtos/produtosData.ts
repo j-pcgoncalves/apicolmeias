@@ -389,10 +389,6 @@ export const productsData: ProductsModel[] = [
                 name: "Escapa abelhas"
             },
             {
-                imageUrl: "",
-                name: "Armadilha para vespas"
-            },
-            {
                 imageUrl: armadilha,
                 name: "Armadilha para vespas asiáticas"
             },
